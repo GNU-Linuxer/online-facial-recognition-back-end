@@ -4,4 +4,4 @@ The **Java Spring Boot Back-end** for a facial recognition authentication websit
 
 Utilized **TensorFlow machine learning library** to perform facial recognition on this backend server.
 
-Note: Java 11 version is used on this project
+Note: **Java JDK version 11** is used on this project
