@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ImageProcessorController {
     @RequestMapping(value = "/image_processor", method = RequestMethod.GET)
     public String getImageProcessor() {
-        return "Use POST method on this endpoint to upload your image";
+        return "Please Use POST method on this endpoint to upload your image";
     }
 
     @RequestMapping(value = "/image_processor", method = RequestMethod.POST)
