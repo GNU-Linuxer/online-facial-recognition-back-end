@@ -21,8 +21,16 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/HelloController.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1023" />
+          <option name="caretOffset" value="1022" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/ImageProcessorController.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="415" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/APIKey.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="8482" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/CustomVisionSamples.java" />
         </OpenedFileInfo>
       </list>
     </option>

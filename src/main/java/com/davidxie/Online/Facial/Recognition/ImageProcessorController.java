@@ -25,4 +25,8 @@ public class ImageProcessorController {
         fout.close();
         return "File is upload successfully";
     }
+
+    public void uploadImageToAzureCustomVision() {
+
+    }
 }
