@@ -13,28 +13,16 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="663" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/FileUploadController.java" />
+          <option name="caretOffset" value="361" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/OnlineFacialRecognitionApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="525" />
+          <option name="caretOffset" value="658" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/HelloController.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1023" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/ImageProcessorController.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="124" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/StorageProperties.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.6.3-SNAPSHOT/spring-boot-autoconfigure-2.6.3-20220117.084402-30.jar!/META-INF/spring-configuration-metadata.json" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1254" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/pom.xml" />
         </OpenedFileInfo>
       </list>
     </option>

@@ -1,18 +1,15 @@
 package com.davidxie.Online.Facial.Recognition;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.UUID;
 
 @RestController
 public class ImageProcessorController {
-    private final StorageService storageService;
-
-    @Autowired
-    public ImageProcessorController(StorageService storageService) {
-        this.storageService = storageService;
-    }
 
     @RequestMapping(value = "/image_processor", method = RequestMethod.GET)
     public String getImageProcessor() {
@@ -21,11 +18,11 @@ public class ImageProcessorController {
 
     // Create a File Upload Controller
     @RequestMapping(value = "/image_processor", method = RequestMethod.POST)
-    public String postImageProcessor(@RequestBody MultipartFile file, RedirectAttributes redirectAttributes) {
-        storageService.store(file);
-        redirectAttributes.addFlashAttribute("message",
-                "You successfully uploaded " + file.getOriginalFilename() + "!");
-
-        return "redirect:/";
+    public String postImageProcessor(@RequestBody byte[] file, RedirectAttributes redirectAttributes) throws IOException {
+        File convertFile = new File("/var/tmp/photo_"+UUID.randomUUID()+".png");
+        FileOutputStream fout = new FileOutputStream(convertFile);
+        fout.write(file);
+        fout.close();
+        return "File is upload successfully";
     }
 }
