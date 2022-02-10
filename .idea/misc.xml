@@ -8,28 +8,16 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="corretto-11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-11" project-jdk-type="JavaSDK" />
   <component name="UnattendedHostPersistenceState">
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="361" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/OnlineFacialRecognitionApplication.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="658" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/HelloController.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1022" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/ImageProcessorController.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="415" />
+          <option name="caretOffset" value="556" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/APIKey.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="8482" />
+          <option name="caretOffset" value="3652" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/com/davidxie/Online/Facial/Recognition/CustomVisionSamples.java" />
         </OpenedFileInfo>
       </list>
